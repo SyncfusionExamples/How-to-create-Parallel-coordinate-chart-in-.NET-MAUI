@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MAUI\\ParallelCoordinateChart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|d:\\maui\\parallelcoordinatechart\\parallelcoordinatechart\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|solutionrelative:parallelcoordinatechart\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|d:\\maui\\parallelcoordinatechart\\parallelcoordinatechart\\parallelcoordinatechart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|solutionrelative:parallelcoordinatechart\\parallelcoordinatechart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|d:\\maui\\parallelcoordinatechart\\parallelcoordinatechart\\seriesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|solutionrelative:parallelcoordinatechart\\seriesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|d:\\maui\\parallelcoordinatechart\\parallelcoordinatechart\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|solutionrelative:parallelcoordinatechart\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|d:\\maui\\parallelcoordinatechart\\parallelcoordinatechart\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B7249D-6002-4D66-9EF3-A43C8319864A}|ParallelCoordinateChart\\ParallelCoordinateChart.csproj|solutionrelative:parallelcoordinatechart\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeriesModel.cs",
+              "DocumentMoniker": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\SeriesModel.cs",
+              "RelativeDocumentMoniker": "ParallelCoordinateChart\\SeriesModel.cs",
+              "ToolTip": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\SeriesModel.cs",
+              "RelativeToolTip": "ParallelCoordinateChart\\SeriesModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:25:06.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParallelCoordinateChart.cs",
+              "DocumentMoniker": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\ParallelCoordinateChart.cs",
+              "RelativeDocumentMoniker": "ParallelCoordinateChart\\ParallelCoordinateChart.cs",
+              "ToolTip": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\ParallelCoordinateChart.cs",
+              "RelativeToolTip": "ParallelCoordinateChart\\ParallelCoordinateChart.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAAOcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:23:39.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ParallelCoordinateChart\\MauiProgram.cs",
+              "ToolTip": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\MauiProgram.cs",
+              "RelativeToolTip": "ParallelCoordinateChart\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:22:37.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ParallelCoordinateChart\\MainPage.xaml.cs",
+              "ToolTip": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\MainPage.xaml.cs",
+              "RelativeToolTip": "ParallelCoordinateChart\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:48:29.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ParallelCoordinateChart\\MainPage.xaml",
+              "ToolTip": "D:\\MAUI\\ParallelCoordinateChart\\ParallelCoordinateChart\\MainPage.xaml",
+              "RelativeToolTip": "ParallelCoordinateChart\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T09:48:18.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
