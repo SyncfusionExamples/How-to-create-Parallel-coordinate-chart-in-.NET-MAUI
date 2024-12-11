@@ -1,4 +1,4 @@
-# How-to-create-Parallel-coordinate-chart-in-.NET-MAUI
+# How to create Parallel coordinate chart in .NET MAUI
 This article offers a comprehensive guide to creating a Parallel Coordinate Chart in .NET MAUI.
 
 You can achieve the parallel coordinates chart using the [.NET MAUI Cartesian Chart](https://www.syncfusion.com/maui-controls/maui-cartesian-charts) by incorporating multiple spline or line series and utilizing axis crossing support to arrange the chart axes in parallel.
