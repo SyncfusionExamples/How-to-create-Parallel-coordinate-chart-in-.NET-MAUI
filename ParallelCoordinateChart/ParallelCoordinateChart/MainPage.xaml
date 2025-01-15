@@ -6,7 +6,9 @@
              x:Class="ParallelCoordinateChart.MainPage">
 
     <ContentPage.Content>
-        <local:ParallelCoordinateChart/>
+        <Border StrokeShape="RoundRectangle 10" Stroke="Black" Margin="5">
+            <local:ParallelCoordinateChart Margin="10"/>
+        </Border>
     </ContentPage.Content>
 
 </ContentPage>

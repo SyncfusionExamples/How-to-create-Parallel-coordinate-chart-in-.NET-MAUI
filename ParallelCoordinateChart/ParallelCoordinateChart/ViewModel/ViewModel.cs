@@ -1,6 +1,4 @@
-﻿
-using Syncfusion.Maui.Charts;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -9,44 +7,6 @@ using System.Threading.Tasks;
 
 namespace ParallelCoordinateChart
 {
-    internal class SeriesModel
-    {
-        private double xValue;
-        private double yValue;
-        public double XValues
-        {
-            get => xValue;
-            set => xValue = value;
-        }
-
-        public double YValues
-        {
-            get => yValue;
-            set => yValue = value;
-        }
-
-        public SeriesModel(double x, double y)
-        {
-            XValues = x;
-            YValues = y;
-        }
-    }
-    public class ChartModel
-    {
-        private List<object> variables;
-
-        public List<object> Variable
-        {
-            get => variables;
-            set => variables = value;
-        }
-
-        public ChartModel(List<object> values)
-        {
-            variables = values;
-        }
-    }
-
     public class ViewModel
     {
         public ObservableCollection<ChartModel> DataSource { get; set; }
@@ -76,14 +36,5 @@ namespace ParallelCoordinateChart
 
             return data;
         }
-    }
-
-    public class Model
-    {
-        public string? CarModel { get; set; }
-        public double Horsepower { get; set; }
-        public double Torque { get; set; }
-        public double FuelEfficiency { get; set; }
-        public double Price { get; set; }
     }
 }
