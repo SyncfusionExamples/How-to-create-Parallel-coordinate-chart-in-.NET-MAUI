@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             xmlns:local="clr-namespace:ParallelCoordinateChart"
+             x:Class="ParallelCoordinateChart.MainPage">
+
+    <ContentPage.Content>
+        <Border StrokeShape="RoundRectangle 10" Stroke="Black" Margin="5">
+            <local:ParallelCoordinateChart Margin="10"/>
+        </Border>
+    </ContentPage.Content>
+
+</ContentPage>
