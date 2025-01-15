@@ -3,13 +3,14 @@ This article offers a comprehensive guide to creating a Parallel Coordinate Char
 
 You can achieve the parallel coordinates chart using the [.NET MAUI Cartesian Chart](https://www.syncfusion.com/maui-controls/maui-cartesian-charts) by incorporating multiple spline or line series and utilizing axis crossing support to arrange the chart axes in parallel.
 
-A **Parallel Coordinate Chart** for visualizing multidimensional data, where each axis represents a variable, and data points are displayed as lines connecting these parallel axes. This guide walks you through the steps to implement such a visualization effectively in .NET MAUI.
+A **Parallel Coordinate Chart** for visualizing multidimensional data, where each axis represents a variable, and data points are displayed as lines or curves connecting these parallel axes. This guide walks you through the steps to implement such a visualization effectively in .NET MAUI.
 
 The following steps and code examples illustrate how to create the parallel coordinates chart using [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html).
 
-**Step 1:** Create a custom parallel coordinates chart by inheriting from the SfCartesianChart class and initializing the chart setup through the GenerateChart method.
+**Step 1:** Create a custom parallel coordinates chart by inheriting from the [SfCartesianChart](https://help.syncfusion.com/maui/cartesian-charts/getting-started) class and initializing the chart setup through the GenerateChart method.
  
 **C#**
+ 
  ```csharp
 public class ParallelCoordinateChart:SfCartesianChart
 {
@@ -20,7 +21,6 @@ public class ParallelCoordinateChart:SfCartesianChart
 } 
  ```
  
-
 **Step 2:**  This method manages the complete chart setup, including the configuration of axes, series, and visual styling elements such as color palettes.
 
 **C#**
@@ -55,10 +55,10 @@ private void GenerateChart()
 } 
  ```
  
-
 **Step 3:** Generate the X-axis for the chart and create a list of Y-axes, each representing a different variable from the view model data source.
 
  **C#**
+ 
  ```csharp
 private NumericalAxis GenerateXAxes()
 {
@@ -179,8 +179,7 @@ private List<NumericalAxis> GenerateYAxesList()
 } 
  ```
  
-
-**Step 4:** Generates and returns a list of series to visualize data points across the parallel axes, normalizes raw data values to a standardized scale, and maps car model names to their corresponding indices on the X-axis.
+**Step 4:** The GenerateSeries method creates a list of [SplineSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SplineSeries.html) to visualize multidimensional data across parallel axes. It normalizes raw data values to a uniform scale (0–4) using the Normalize method and maps car model names to numerical indices with CarModelIndex method, ensuring consistent and accurate representation of data.
 
 **C#**
  
@@ -291,20 +290,21 @@ public class ViewModel
 } 
  ```
  
-
 **Step 6:** The Content page contains the ParallelCoordinateChart control, which renders the parallel coordinate chart on the page.
 
 **XAML**
  
  ```xml
 <ContentPage.Content>
-    <local:ParallelCoordinateChart/>
+    <Border StrokeShape="RoundRectangle 10" Stroke="Black" Margin="5">
+        <local:ParallelCoordinateChart Margin="10"/>
+    </Border>
 </ContentPage.Content> 
  ```
  
 **Output:**
 
-![ParallelCoordinateChart1](https://github.com/user-attachments/assets/1625c2c0-7d14-420d-b591-5fb29426b90d)
+![ParallelCoordinateChart](https://github.com/user-attachments/assets/5f199abd-bd24-4d8e-ab36-2a49b059c7fa)
 
 **Troubleshooting**
 
