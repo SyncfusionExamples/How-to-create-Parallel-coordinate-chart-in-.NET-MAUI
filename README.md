@@ -312,5 +312,5 @@ Path too long exception
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [how to create Parallel coordinate chart in .NET MAUI](https://support.syncfusion.com/agent/kb/18288).
+For more details, refer to the KB on [how to create Parallel coordinate chart in .NET MAUI](https://support.syncfusion.com/kb/article/18288/how-to-create-parallel-coordinate-chart-in-net-maui).
 
