@@ -306,3 +306,11 @@ public class ViewModel
 
 ![ParallelCoordinateChart1](https://github.com/user-attachments/assets/1625c2c0-7d14-420d-b591-5fb29426b90d)
 
+**Troubleshooting**
+
+Path too long exception
+
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
+For more details, refer to the KB on [how to create Parallel coordinate chart in .NET MAUI](https://support.syncfusion.com/agent/kb/18288).
+
